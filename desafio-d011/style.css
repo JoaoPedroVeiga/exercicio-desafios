@@ -6,43 +6,104 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
+    
 }
 
 body {
 
 
 }
+
 header {
     background-color: black;
+    color: white;
     text-align: center;
-    min-height: 220px;
-    padding-top: 30px;
-    
 
-    }
+}
 
 header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
     font-family: Passion One, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 115px;
-    color: white;
-    
+    font-size: 10vw;
+    letter-spacing: 7px;
+
 }
 
 header > p {
-    color: white;
+    padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }    
 
 main {
+    font-size: 3.4em;
     font-family: Sriracha, Arial, Helvetica, sans-serif; 
-    font-size: 3em;
+    
 }
-.p1 {
-    padding-top: 60px;
-    padding-left: 30px;
+
+main > p {
+    
+}
+
+strong {
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding-top: 1.5em;
+    padding-left: 35px;
+    padding-bottom: 2.5em;
     text-align: left;
-    padding-right: 1020px;
-  
+}
+
+.p1 {
+   
+}
+.imagem2 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
+
+}
+
+.p2 {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    
+    
+}
+.imagem5 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
+
+
+}
+
+.p5 {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+
+}
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    padding: 10px ;
 }
